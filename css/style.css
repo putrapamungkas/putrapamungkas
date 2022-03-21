@@ -1,0 +1,68 @@
+html { 
+    background: url("https://i.ibb.co/yyR8GYk/background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+
+.responsive {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+marquee {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.small {
+    width: 70px;
+    height: auto;
+    margin: -65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    transition: .5s;
+}
+
+
+h1 {
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+  color: #ffffff;
+}
+
+hr {
+    border-color: rgb(255, 0, 179);
+    color: rgb(252, 0, 210);
+    border-width: 4px;
+  }
+
+.hr-blu {
+    border-color: rgb(0, 166, 255);
+    color: rgb(0, 166, 255);
+    border-width: 4px;
+  }
+
+.img-list-about {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-list-about li .cigs {
+    vertical-align: middle;
+  }
+
+  .logo {float:left; padding:10px;}
